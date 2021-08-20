@@ -1,7 +1,7 @@
 ﻿module Shared
 
 /// Defines how routes are generated on server and mapped from client
-let routerPaths typeName method = sprintf "/api/%s" method
+let routerPaths typeName _ = sprintf "/api/%s" typeName
 
 type Note = { 
   id: int

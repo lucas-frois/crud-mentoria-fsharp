@@ -1,6 +1,4 @@
 {
-    "FSharp.enableAnalyzers": true,
-    "FSharp.analyzersPath": [
-        "analyzers"
-    ]
+  "FSharp.enableAnalyzers": true,
+  "FSharp.analyzersPath": ["analyzers"]
 }
